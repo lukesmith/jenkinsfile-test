@@ -9,8 +9,8 @@ node {
         /* .. snip .. */
     }
 	
-    input 'Do you approve deployment?'
     stage('Deploy') {
+	    input 'Do you approve deployment?'
         /* .. snip .. */
     }
 }
