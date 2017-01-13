@@ -8,6 +8,8 @@ node {
     stage('Test') {
         /* .. snip .. */
     }
+	
+    input 'Do you approve deployment?'
     stage('Deploy') {
         /* .. snip .. */
     }
